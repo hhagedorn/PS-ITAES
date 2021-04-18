@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AES"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\AES\;CMake Files\AES\decryption\;CMake Files\AES\decryption\src\;CMake Files\AES\decryption\tests\;CMake Files\AES\encryption\;CMake Files\AES\encryption\src\;CMake Files\AES\encryption\tests\;CMake Files\AES\tests\;CMake Files\Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Decryption">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Decryption.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 Decryption"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Decryption/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Decryption.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 Decryption/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Encryption">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Encryption.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 Encryption"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Encryption/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Encryption.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 Encryption/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DecryptTest_128bitKeyDecryption">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/DecryptTest_128bitKeyDecryption.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 DecryptTest_128bitKeyDecryption"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DecryptTest_128bitKeyDecryption/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/DecryptTest_128bitKeyDecryption.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 DecryptTest_128bitKeyDecryption/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DecryptTest_InvShiftRows">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/DecryptTest_InvShiftRows.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 DecryptTest_InvShiftRows"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DecryptTest_InvShiftRows/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/DecryptTest_InvShiftRows.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 DecryptTest_InvShiftRows/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DecryptTest_InvMixColumns">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/DecryptTest_InvMixColumns.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 DecryptTest_InvMixColumns"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DecryptTest_InvMixColumns/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/DecryptTest_InvMixColumns.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 DecryptTest_InvMixColumns/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DecryptTest_InvSubBytes">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/DecryptTest_InvSubBytes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 DecryptTest_InvSubBytes"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DecryptTest_InvSubBytes/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/DecryptTest_InvSubBytes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 DecryptTest_InvSubBytes/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DecryptTest_AddRoundKey">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/DecryptTest_AddRoundKey.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 DecryptTest_AddRoundKey"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DecryptTest_AddRoundKey/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/DecryptTest_AddRoundKey.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 DecryptTest_AddRoundKey/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/decryption/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ControlStructureEncryptionTest">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/ControlStructureEncryptionTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 ControlStructureEncryptionTest"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ControlStructureEncryptionTest/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/ControlStructureEncryptionTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 ControlStructureEncryptionTest/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="encryptionAlgorithmTest">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/encryptionAlgorithmTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 encryptionAlgorithmTest"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="encryptionAlgorithmTest/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/encryptionAlgorithmTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 encryptionAlgorithmTest/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ShiftRowTest">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/ShiftRowTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 ShiftRowTest"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ShiftRowTest/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/ShiftRowTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 ShiftRowTest/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="applySBoxTest">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/applySBoxTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 applySBoxTest"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="applySBoxTest/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/applySBoxTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 applySBoxTest/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MixedColumnTest">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/MixedColumnTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 MixedColumnTest"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MixedColumnTest/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/MixedColumnTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 MixedColumnTest/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roundKeyTest">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/roundKeyTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 roundKeyTest"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roundKeyTest/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/roundKeyTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 roundKeyTest/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/encryption/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_library">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/libtest_library.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 test_library"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_library/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/libtest_library.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 test_library/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hexConversionTest">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/hexConversionTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 hexConversionTest"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hexConversionTest/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/hexConversionTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 hexConversionTest/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KeyExpansionTest">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/KeyExpansionTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 KeyExpansionTest"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KeyExpansionTest/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/KeyExpansionTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 KeyExpansionTest/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SBoxTest">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/SBoxTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 SBoxTest"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SBoxTest/fast">
+				<Option output="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/SBoxTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 SBoxTest/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/cmake-build-release/AES/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/decrypt_MAIN.c">
+			<Option target="Decryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/decrypt_Services.c">
+			<Option target="Decryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/decrypt_Services.h">
+			<Option target="Decryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/decrypt_UserInterface.c">
+			<Option target="Decryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/decrypt_UserInterface.h">
+			<Option target="Decryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/decryption/decrypt_Decryption.c">
+			<Option target="Decryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/decryption/decrypt_Decryption.h">
+			<Option target="Decryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/fileManager/decrypt_FileManager.c">
+			<Option target="Decryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/fileManager/decrypt_FileManager.h">
+			<Option target="Decryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/inverseSBox/inverseSBox.c">
+			<Option target="Decryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/inverseSBox/inverseSBox.h">
+			<Option target="Decryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/tests/128bitDecryption_DecryptTest.c">
+			<Option target="DecryptTest_128bitKeyDecryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/tests/AddRoundKey_DecryptTest.c">
+			<Option target="DecryptTest_AddRoundKey"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/tests/InvMixColumns_DecryptTest.c">
+			<Option target="DecryptTest_InvMixColumns"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/tests/InvShiftRows_DecryptTest.c">
+			<Option target="DecryptTest_InvShiftRows"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/tests/InvSubBytes_DecryptTest.c">
+			<Option target="DecryptTest_InvSubBytes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/controlStructure/controlStructure.c">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/controlStructure/controlStructure.h">
+			<Option target="Encryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/encryptionAlgorithm/encryptionAlgorithm.c">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/encryptionAlgorithm/encryptionAlgorithm.h">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/fileManagement/fileManagement.c">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/fileManagement/fileManagement.h">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/input/inputDialog/inputDialog.c">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/input/inputDialog/inputDialog.h">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/input/inputHandling/inputHandling.c">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/input/inputHandling/inputHandling.h">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/mainEncryption.c">
+			<Option target="Encryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/mixedColumnsTransformation/mixedColumnsTransformation.c">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+			<Option target="MixedColumnTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/mixedColumnsTransformation/mixedColumnsTransformation.h">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+			<Option target="MixedColumnTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/output/outputDialog/outputDialog.c">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/output/outputDialog/outputDialog.h">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/output/outputHandling/outputHandling.c">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/output/outputHandling/outputHandling.h">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/resources/resources.c">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+			<Option target="applySBoxTest"/>
+			<Option target="roundKeyTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/resources/resources.h">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+			<Option target="applySBoxTest"/>
+			<Option target="roundKeyTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/roundKeyTransformation/roundKeyTransformation.c">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+			<Option target="roundKeyTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/roundKeyTransformation/roundKeyTransformation.h">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+			<Option target="roundKeyTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/sBoxTransformation/sBoxTransformation.c">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+			<Option target="applySBoxTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/sBoxTransformation/sBoxTransformation.h">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+			<Option target="applySBoxTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/shiftRowsTransformation/shiftRowsTransformation.c">
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+			<Option target="ShiftRowTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/shiftRowsTransformation/shiftRowsTransformation.h">
+			<Option target="Encryption"/>
+			<Option target="ShiftRowTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/tests/ControlStructureEncryptionTest.c">
+			<Option target="ControlStructureEncryptionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/tests/MixedColumnLayerTest.c">
+			<Option target="MixedColumnTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/tests/ShiftRowLayerTest.c">
+			<Option target="ShiftRowTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/tests/applySBoxTest.c">
+			<Option target="applySBoxTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/tests/encryptionAlgorithmTest.c">
+			<Option target="encryptionAlgorithmTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/tests/roundKeyTest.c">
+			<Option target="roundKeyTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/aes_config.h">
+			<Option target="Decryption"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/charText.h">
+			<Option target="Decryption"/>
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/hexConversions/hexConversions.c">
+			<Option target="Decryption"/>
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="hexConversionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/hexConversions/hexConversions.h">
+			<Option target="Decryption"/>
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="hexConversionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/keyExpansion/keyExpansion.c">
+			<Option target="Decryption"/>
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+			<Option target="applySBoxTest"/>
+			<Option target="roundKeyTest"/>
+			<Option target="KeyExpansionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/keyExpansion/keyExpansion.h">
+			<Option target="Decryption"/>
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+			<Option target="applySBoxTest"/>
+			<Option target="roundKeyTest"/>
+			<Option target="KeyExpansionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/sBoxes/sBoxes.c">
+			<Option target="Decryption"/>
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+			<Option target="applySBoxTest"/>
+			<Option target="roundKeyTest"/>
+			<Option target="KeyExpansionTest"/>
+			<Option target="SBoxTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/sBoxes/sBoxes.h">
+			<Option target="Decryption"/>
+			<Option target="Encryption"/>
+			<Option target="ControlStructureEncryptionTest"/>
+			<Option target="encryptionAlgorithmTest"/>
+			<Option target="applySBoxTest"/>
+			<Option target="roundKeyTest"/>
+			<Option target="KeyExpansionTest"/>
+			<Option target="SBoxTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/tests/KeyExpansionTest.c">
+			<Option target="KeyExpansionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/tests/SBoxTest.c">
+			<Option target="SBoxTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/tests/hexConversionTest.c">
+			<Option target="hexConversionTest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/lib/TestLibrary.c">
+			<Option target="test_library"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/lib/TestLibrary.h">
+			<Option target="test_library"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\AES\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\AES\decryption\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\AES\decryption\src\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\AES\decryption\tests\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\AES\encryption\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\AES\encryption\src\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\AES\encryption\tests\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\AES\tests\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/Files/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/decrypt_Services.h
+../../src/charText.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/charText.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/fileManager/decrypt_FileManager.c
+decrypt_FileManager.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/fileManager/decrypt_FileManager.h
+stdio.h
+-
+../decrypt_Services.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/decrypt_Services.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/decryption/src/fileManager/decrypt_FileManager.h
+../../../src/charText.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/charText.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/charText.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/hexConversions/hexConversions.c
+stdlib.h
+-
+hexConversions.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/hexConversions/hexConversions.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/hexConversions/hexConversions.h
+../charText.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/charText.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/sBoxes/sBoxes.c
+stdlib.h
+-
+sBoxes.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/sBoxes/sBoxes.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/sBoxes/sBoxes.h
+

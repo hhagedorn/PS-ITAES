@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/shiftRowsTransformation/shiftRowsTransformation.c
+shiftRowsTransformation.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/shiftRowsTransformation/shiftRowsTransformation.h
+../../../src/aes_config.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/aes_config.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/shiftRowsTransformation/shiftRowsTransformation.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/tests/ShiftRowLayerTest.c
+stdlib.h
+-
+string.h
+-
+../../../lib/TestLibrary.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/lib/TestLibrary.h
+../src/shiftRowsTransformation/shiftRowsTransformation.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/encryption/src/shiftRowsTransformation/shiftRowsTransformation.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/aes_config.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/lib/TestLibrary.h
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -Wl,--enable-auto-import CMakeFiles/SBoxTest.dir/SBoxTest.c.o CMakeFiles/SBoxTest.dir/__/src/sBoxes/sBoxes.c.o  -o SBoxTest.exe -Wl,--out-implib,libSBoxTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  libtest_library.a 

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/lib/TestLibrary.c
+TestLibrary.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/lib/TestLibrary.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/lib/TestLibrary.h
+

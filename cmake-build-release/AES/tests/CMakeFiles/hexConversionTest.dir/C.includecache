@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/charText.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/hexConversions/hexConversions.c
+stdlib.h
+-
+hexConversions.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/hexConversions/hexConversions.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/hexConversions/hexConversions.h
+../charText.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/charText.h
+

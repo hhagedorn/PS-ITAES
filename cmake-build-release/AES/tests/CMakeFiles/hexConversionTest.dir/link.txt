@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -Wl,--enable-auto-import CMakeFiles/hexConversionTest.dir/hexConversionTest.c.o CMakeFiles/hexConversionTest.dir/__/src/hexConversions/hexConversions.c.o  -o hexConversionTest.exe -Wl,--out-implib,libhexConversionTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  libtest_library.a 

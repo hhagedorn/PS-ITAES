@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -Wl,--enable-auto-import CMakeFiles/ShiftRowTest.dir/ShiftRowLayerTest.c.o CMakeFiles/ShiftRowTest.dir/__/src/shiftRowsTransformation/shiftRowsTransformation.c.o  -o ShiftRowTest.exe -Wl,--out-implib,libShiftRowTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../../tests/libtest_library.a 

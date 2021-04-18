@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/sBoxes/sBoxes.c
+stdlib.h
+-
+sBoxes.h
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/sBoxes/sBoxes.h
+
+/cygdrive/c/Users/Hendrik/CLionProjects/PS-ITAES/AES/src/sBoxes/sBoxes.h
+

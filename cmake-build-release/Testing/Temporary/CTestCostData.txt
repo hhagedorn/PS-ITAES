@@ -1,0 +1,15 @@
+Decrypt_AddRoundKeyTest 7 0.00632336
+Decrypt_InvSubBytesTest 7 0.00615753
+Decrypt_InvMixColumnsTest 7 0.00565207
+Decrypt_InvShiftRowsTest 7 0.00625666
+Decrypt_128bitKeyDecryptionTest 7 0.00611939
+Encryption_roundKey_Test 7 0.00633187
+Encryption_applySBox_Test 7 0.00716229
+Encryption_ShiftRow_Test 7 0.00641304
+Encryption_MixedColumn_Test 7 0.00661067
+Encryption_encryptionAlgorithm_Test 7 0.0061645
+SBox_Test 7 0.00631957
+KeyExpansion_Test 7 0.00590253
+hexConversion_Test 7 0.00606699
+ControlStructureEncryption_Test 6 0.00767267
+---

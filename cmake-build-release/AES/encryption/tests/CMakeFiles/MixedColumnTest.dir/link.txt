@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -Wl,--enable-auto-import CMakeFiles/MixedColumnTest.dir/MixedColumnLayerTest.c.o CMakeFiles/MixedColumnTest.dir/__/src/mixedColumnsTransformation/mixedColumnsTransformation.c.o  -o MixedColumnTest.exe -Wl,--out-implib,libMixedColumnTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../../tests/libtest_library.a 
