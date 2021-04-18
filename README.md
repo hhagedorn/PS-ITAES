@@ -1,5 +1,8 @@
 # Readme 
-This Version of the AES in C is being created as part of a project seminar at the Research Group for Cyber Security, University of Münster.
+This Version of the AES in C is being created as part of a project seminar at the Research Group for Cyber Security, University of Münster. Accordingly, all provided documentations follow the guidelines of academic prose-deliverables instead of developer documentations.
+
+For detailed creator assignments, refer to the documentation, the file headers or the information provided below. Generally, the decryption algorithm has been developed by *hhagedorn*, whilst *B-Kluss* developed the encryption algorithm. All other files have been created collectively.
+
 
 ## Usage Guide
 *For further information in which technical environments the program can be securely compiled and run, please see the "Usage Guide" section of the provided documentation. This also entails a detailed description of the interfaces and can be found in the directory "Thesis and Documentation"*
